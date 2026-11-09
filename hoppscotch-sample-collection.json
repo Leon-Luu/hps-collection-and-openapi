@@ -1,0 +1,37 @@
+{
+  "v": 12,
+  "name": "Hoppscotch Sample Collection[1.0.0]",
+  "folders": [],
+  "requests": [
+    {
+      "v": "17",
+      "name": "Echo request",
+      "method": "GET",
+      "endpoint": "https://echo.hoppscotch.io",
+      "params": [],
+      "headers": [],
+      "auth": {
+        "authType": "none",
+        "authActive": true
+      },
+      "body": {
+        "body": null,
+        "contentType": null
+      },
+      "responses": {},
+      "description": "A sample request for testing collection imports.",
+      "preRequestScript": "",
+      "testScript": "",
+      "requestVariables": []
+    }
+  ],
+  "auth": {
+    "authType": "inherit",
+    "authActive": true
+  },
+  "headers": [],
+  "variables": [],
+  "description": "A minimal collection for the collection sync integration test.",
+  "preRequestScript": "",
+  "testScript": ""
+}
